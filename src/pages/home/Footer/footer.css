@@ -1,0 +1,118 @@
+#footer {
+    background-color: #171b2a;
+    position: relative;
+}
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px 60px 50px;
+    color: white;
+}
+.footer_container a {
+    color: white;
+    transition: 0.3s ease;
+}
+.footer_box {
+    max-width: 400px;
+}
+.footer_container .footer_logo {
+    font-size: 30px;
+    margin: 10px 0;
+}
+.footer_container p {
+    line-height: 30px;
+}
+.footer_container .footer_link {
+    margin-top: 30px;
+}
+.footer_container .footer_link p{
+    display: flex;
+    align-items: center;
+    padding: 6px 0;
+}
+.footer_container .icon {
+    margin-right: 10px;
+}
+.footer_container .footer_contact {
+    display: flex;
+    margin-top: 20px;
+}
+.footer_container .footer_contact li {
+    margin-right: 10px;
+}
+.footer_container .box_list {
+    overflow: hidden;
+}
+.footer_container .box_list span{
+    color: #ff5a3c;
+    margin-right: 11px;
+}
+.footer_container .box_list li {
+    margin: 20px 0;
+    transform: translateX(-25px);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.footer_container .box_list li:hover {
+    transform: translateX(0);
+    transition: 0.3s ease;
+}
+.footer_container .box_list li:hover a {
+    color: #ff5a3c;
+    transition: 0.3s ease;;
+}
+.footer_label {
+    padding: 40px;
+    color: white;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: -25%;
+    transform: translate(-50%, 25%);    
+    background-color: #ff5a3c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_label h3 {
+    font-size: 35px;
+}
+.footer_label p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+.footer_label button {
+    background-color: white;
+    border: none;
+    box-shadow: 0 2px 7px 0 rgba(0,0,0,0.21);
+}
+.footer_label button a {
+    display: flex;
+    align-items: center;
+    padding: 15px 35px;
+    font-size: 15px;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.footer_label button a::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0%;
+    height:100%;
+    background-color: black;
+    z-index: -1;
+    transition: 0.5s ease;
+}
+.footer_label button:hover a {
+    color: white;
+}
+.footer_label button:hover a::after {
+    width: 100%;
+    transition: 0.3s ease;
+}

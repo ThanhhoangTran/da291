@@ -1,0 +1,60 @@
+.header_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 150px;
+    margin: 0 auto;
+    min-height: 50px;
+}
+.header_title h3 {
+    color: rgba(0, 0, 0, 0.712);
+    font-weight: 200;
+    font-size: 16px;
+}
+.header_title a {
+    margin: 0 10px;
+}
+.header_buttons button {
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #2BC0E4;
+    z-index: 0;
+    outline: none;
+    border: none;
+}
+.header_btn {
+    position: relative;
+    padding: 10px 25px;
+    display: block;
+    color: white;
+    background-color: transparent;
+    z-index: 0;
+}
+.header_btn::before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 0;
+    width: 200%;
+    background-color: #151515;
+    transition: all 0.3s ease 0s;
+    content: "";
+    transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+    opacity: 0;
+    z-index: -1;
+    color: white;
+}
+.header_btn:hover {
+    background-color: transparent;
+}
+.header_btn:hover::before {
+    height: 400%;
+    opacity: 1;
+    color: #ffffff;
+}
+.header_register {
+    color: #2BC0E4;
+}
+.header_login {
+    color: black;
+}

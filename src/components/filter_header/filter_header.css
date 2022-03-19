@@ -1,0 +1,109 @@
+.header_filter {
+    display: flex;
+    height: 65px;
+    border-radius: 50px;
+    background-color: white;
+    padding: 7px;
+    z-index: 1;
+}
+.header_filter ::-webkit-scrollbar {
+        width: 5px;
+        background-color: #2BC0E4;
+}
+.header_filter ::-webkit-scrollbar-thumb {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+        width: 100%;
+        height: 100px;
+        background-color: #927343;
+}
+.header_filter input {
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    min-width: 400px;
+    border-radius: 30px;
+}
+.header_filter .header_filter_form {
+    position: relative;
+    min-width: 200px;
+    border-left: 1px solid #ccc;
+}
+.header_filter_form .select, .header_filter_search{
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+.header_filter_form .select .icon {
+    font-size: 16px;
+}
+.header_filter_form a, .header_filter_search a {
+    padding: 0 20px;
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.header_filter_form .droped-down {
+    border-top: 1px solid #ccc;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    max-height: 0;
+    top: calc(100% + 6px);
+    left: 0;
+    background: white;
+    padding: 0 10px;
+    transition: 0.5s ease-in-out;
+    z-index: 0;
+}
+.header_filter_form .droped-down li {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 10px;
+    color: black;
+    cursor: pointer;
+}
+.active .droped-down{
+   max-height: 149px;
+}
+.header_filter_form .droped-down li:last-child {
+    border: none;
+}
+
+.header_filter_search {
+    background: #6a7be7;
+    border-radius: 30px;
+    padding: 0 15px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.header_filter_search a {
+    color: white;
+}
+.header_filter_search:before {
+    content:"";
+    position: absolute;
+    left: 50%;
+    width: 0;
+    height: 300%;
+    background-color: #fff;
+    transform-origin: center;
+    transform:  translateX(-50%);
+    transition: 0.5s ease;
+    opacity: 0.4;
+
+}
+.header_filter_search .icon {
+    transform: rotateY(180deg);
+    margin-right: 10px;
+    font-size: 20px;
+    color: white;
+}
+.header_filter_search:hover::before {
+   width: 200%;
+   transition: 0.5s ease;
+}

@@ -1,0 +1,136 @@
+#propertyPage {
+    background-color: white;
+    padding-bottom: 150px;
+}
+.propertyPage_label {
+    background-color: #2ca7dd;
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#propertyPage .propertyPage_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.propertyPage_label h3 {
+    font-size: 30px;
+}
+.propertyPage_label a {
+    margin: 0 10px;
+    color: white;
+}
+.propertyPage_container .propertyPage_desc {
+    margin-top: 90px;
+}
+.propertyPage_desc .desc_step {
+    margin: 30px 0;
+}
+.desc_step h4 {
+    color: #2ca7dd;
+    display: inline-block;
+    font-size: 22px;
+    border-bottom: 1px solid #2ca7dd;
+}
+.desc_step h3 {
+    font-size: 18px;
+    margin: 20px 0 10px 0;
+}
+.desc_step .desc_title {
+    display: flex;
+    justify-content: space-between;
+}
+.desc_step h5 {
+    margin: 25px 0 10px 0;
+}
+.desc_step .desc_pro_title {
+    flex: 3;
+    margin-right: 25px;
+}
+.desc_step input, .desc_step textarea, .desc_step select {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px 20px;
+    margin-top: 5px;
+    font-size: 14px;
+    border-radius: 22px;
+}
+.desc_step .desc_pro_price {
+    flex: 1;
+}
+.desc_step .desc_pro_address, .desc_step .desc_pro_subaddress {
+    flex: 1;
+}
+.desc_step .desc_pro_address {
+    margin-right: 25px;
+}
+.desc_step select {
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    background: url("data:image/svg+xml,<svg height='10px' width='10px' viewBox='0 0 16 16' fill='%23000000' xmlns='http://www.w3.org/2000/svg'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>") no-repeat;
+    background-position: calc(100% - 0.75rem) center !important;
+    transition: 0.5s ease;
+} 
+.desc_step option {
+    padding: 10px 20px;
+    display: block;
+    color: #2ca7dd
+}
+.desc_step option:checked,  .desc_step option:hover {
+    background-color: #2ca7dd;
+    box-shadow: 0 0 10px 100px #000 inset;
+    color:white;
+}
+
+.desc_step_image, .desc_step_video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid #2ca7dd;
+    padding: 30px 0;
+}
+.desc_step_image input,  .desc_step_video input{
+    display: none;
+}
+.desc_step label {
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 0;
+    border-radius: 30px;
+    background: #2ca7dd;
+    color: white;
+    font-size: 13px;
+}
+.desc_title_details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.desc_title_details .desc_pro_subaddress {
+    min-width: 40%;
+}
+#propertyPage .submit {
+    max-width: 300px;
+    padding: 10px 40px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    background-color: #2ca7dd;
+    color: white;
+    font-size: 15px;
+    transition: all 0.4s ease;
+    border: 1px solid #2ca7dd;
+    cursor: pointer;
+}
+#propertyPage .submit:hover {
+    background-color: white;
+    color: #2ca7dd;
+}

@@ -1,0 +1,104 @@
+#blogDetail {
+    padding-bottom: 150px;
+}
+#blogDetail .blogDetail_container {
+    display: flex;
+    margin-top: 100px;
+}
+#blogDetail .blogDetail_content {
+    flex: 2;
+}
+#blogDetail .blogDetail_section {
+    flex: 1;
+    margin-left: 40px;
+}
+.blogDetail_content img {
+    width: 100%;
+    max-width: 100%;
+}
+.blogDetail_content h3 {
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.blogDetail_byUser {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.blogDetail_byUser span {
+    color: #4359d3;
+    margin: 0 10px;
+}
+.blogDetail_byUser span:hover {
+    color: #1b2c8b;
+}
+.blogDetail_byUser_img {
+    width: 50px;
+    height:50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.blogDetail_byUser_img img {
+    object-fit: cover;
+    object-position: center;
+}
+.blogDetail_text {
+    margin-top: 15px;
+}
+.blogDetail_text p {
+    font-size: 15px;
+    margin: 20px 0;
+}
+.blogDetail_text blockquote {
+    padding: 20px 50px;
+    background-color: #ccc;
+}
+.blogDetail_text blockquote p {
+    position: relative;
+}
+.blogDetail_text .blockquote {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    transform: rotateY(180deg)
+}
+.blogDetail_tag {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.blogDetail_tag .tag_link {
+    display: flex;
+    align-items: center;
+}
+.blogDetail_tag .tag_link a {
+    margin-left: 20px;
+    font-size: 13px;
+    color: black;
+}
+.blogDetail_tag .tag_link a:hover {
+    color: #4359d3;
+}
+.blogDetail_author {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.blogDetail_author .blogDetail_author_img {
+    width: 100px;
+    height: 100px;
+    /* border-radius:50%; */
+    overflow: hidden;
+    border: 2px solid red;
+    margin-right: 20px;
+    position: relative;
+}
+.blogDetail_author img {
+    object-fit: cover;
+    object-position: center;
+}

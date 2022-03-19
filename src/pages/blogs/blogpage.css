@@ -1,0 +1,17 @@
+#blogPage {
+    padding-bottom: 150px;
+}
+#blogPage .blogPage_container {
+    display: flex;
+    margin-top: 50px;
+}
+#blogPage .blogPage_gallery {
+    flex: 2.5;
+}
+#blogPage .blogPage_filter {
+    flex: 1;
+}
+#blogPage .blogPage_gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
