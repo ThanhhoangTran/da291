@@ -47,7 +47,7 @@ const Nav = ()=>{
                                 <li><a href="">Agent Details</a></li>
                             </ul>
                         </li>
-                        <li><a href="" className="item">Contact</a></li>
+                        <li><Link to="/contact" className="item">Contact</Link></li>
                     </ul>
                 </div>
         </div>

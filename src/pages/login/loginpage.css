@@ -1,0 +1,107 @@
+#loginPage {
+    padding-bottom: 200px;
+}
+.section {
+    display: flex;
+    align-items: center;
+}
+.loginPage_container {
+    width: 100%;
+    background-color: #25a5de;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 150px;
+}
+.loginPage_method, .loginPage_register, #loginPage .box{
+    flex: 1;
+    padding: 100px 50px;
+}
+.loginPage_method a {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.loginPage_method li:last-child a {
+    border-bottom: none;
+}
+.loginPage_method .icon {
+    margin-right: 20px;
+}
+.loginPage_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.3%;
+    position: absolute;
+    background-color: #f1f1f1;
+    padding: 50px 30px;
+    height: 130%;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+.loginPage_login h3 {
+    font-size: 25px;
+    color: #25a5de;
+}
+.loginPage_login input[type="text"], .loginPage_login input[type="password"] {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    background-color: transparent;
+    border-bottom: 1px solid #25a5de;
+    margin-top: 30px;
+}
+.loginPage_login .login_checkbox {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+.loginPage_login input[type="checkbox"] {
+    margin-right: 5px;
+}
+.loginPage_container button {
+    border-radius: 40px;
+    background: #25a5de;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    font-size: 14px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.loginPage_container button a {
+    text-transform: uppercase;
+    font-weight:600;
+    letter-spacing: 1px;
+}
+.loginPage_login .btn-forget {
+    color: black;
+    margin-top: 20px;
+}
+.loginPage_register {
+    text-align: center;
+    color: white;
+}
+.loginPage_register h4 {
+    font-size: 18px;
+    margin: 18px 0 10px 0;
+}
+.loginPage_register p {
+    font-size: 14px;
+}
+.loginPage_register button {
+    background-color: white;
+}
+.loginPage_register button a {
+    color: #25a5de;
+    font-size: 13px;
+    text-transform: capitalize;
+}

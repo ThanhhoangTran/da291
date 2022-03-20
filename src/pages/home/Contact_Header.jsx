@@ -9,7 +9,7 @@ const Contact_Header = ()=>{
                     <button>
                         <Link to="/property" className="header_btn btn">Add Property</Link>
                     </button>
-                    <a href="" className="header_register">Register</a>
+                    <Link to="/register" className="header_register">Register</Link>
                     <Link to="/login" className="header_login">Login</Link>
                 </div>
         </div>
