@@ -12,21 +12,20 @@ const RegisterPage = ()=>{
                 <div className="loginPage_container">
                     <div className="loginPage_register">
                         <h4>Already have an Account?</h4>
-                        <p>Create a free account now</p>
                         <button>
-                            <Link to="/" className="header_btn btn">Register</Link>
+                            <Link to="/" className="header_btn btn">Login</Link>
                         </button>
                     </div>
                     <div class="box"></div>
                     <div className="loginPage_login">
                         <h3>Register</h3>
-                        <input type="text" placeholder='User name or Email'/>
+                        <input type="text" placeholder='First Name'/>
+                        <input type="text" placeholder='Last Name'/>
+                        <input type="email" name="" id="" placeholder='Email'/>
                         <input type="password" placeholder='Password'/>
                         <button>
-                            <Link to="/" className="header_btn btn">Register</Link>
+                            <Link to="/" className="header_btn btn">Create Account</Link>
                         </button>
-                        <a href="" className='btn-forget'>Forgot Password?</a>
-                    
                     </div>
                     <ul className="loginPage_method">
                         <li><a href=""><Facebook className="icon"/>Login with Facebook</a></li>

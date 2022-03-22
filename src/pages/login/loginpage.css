@@ -38,7 +38,7 @@
     position: absolute;
     background-color: #f1f1f1;
     padding: 50px 30px;
-    height: 130%;
+    height: 140%;
     left: 50%;
     top:50%;
     transform: translate(-50%, -50%);
@@ -47,7 +47,7 @@
     font-size: 25px;
     color: #25a5de;
 }
-.loginPage_login input[type="text"], .loginPage_login input[type="password"] {
+.loginPage_login input[type="text"], .loginPage_login input[type="password"], .loginPage_login input[type="email"] {
     width: 100%;
     outline: none;
     border: none;

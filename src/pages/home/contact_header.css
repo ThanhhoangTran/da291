@@ -48,7 +48,7 @@
     background-color: transparent;
 }
 .header_btn:hover::before {
-    height: 400%;
+    height: 500%;
     opacity: 1;
     color: #ffffff;
 }

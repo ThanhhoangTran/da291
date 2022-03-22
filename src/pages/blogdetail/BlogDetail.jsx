@@ -1,6 +1,6 @@
 import './blogdetail.css'
 import {Link} from 'react-router-dom'
-import {FacebookOutlined, Google, Twitter, LinkedIn, FormatQuote} from '@mui/icons-material'
+import {FacebookOutlined, Google, Twitter, FormatQuote, Instagram, LinkedIn, Telegram} from '@mui/icons-material'
 import img from '../../images/bg5.jpg'
 import face from '../../images/face.jpg'
 import BlogFilter from '../../components/blogFilter/BlogFilter'
@@ -37,12 +37,19 @@ const BlogDetail = ()=>{
                         </div> 
                         <div className="blogDetail_author">
                             <div className="blogDetail_author_img">
-                                {/* <img src={face} alt="" /> */}
+                                <img src={face} alt="" />
                             </div>
                             <div className="blogDetail_author_say">
                                 <h4>Author</h4>
                                 <h5>Thanh Hoang</h5>
                                 <p>Hi, nice to meet you let me introduce for you, I am Thanh Hoang freelancer designer & web programmer from Vietnam, base lampung</p>
+                                <div className="author_link">
+                                    <a href=""><FacebookOutlined/></a>
+                                    <a href=""><Twitter/></a>
+                                    <a href=""><Instagram/></a>
+                                    <a href=""><Telegram/></a>
+                                    <a href=""><LinkedIn/></a>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -9,6 +9,7 @@ import BlogDetail from './pages/blogdetail/BlogDetail'
 import LoginPage from './pages/login/LoginPage'
 import ContactPage from './pages/contact/ContactPage'
 import RegisterPage from './pages/register/RegisterPage';
+import ListProperty from './pages/listproperty/ListProperty';
 function App() {
   return (
     <Router>
@@ -21,6 +22,7 @@ function App() {
         <Route path="/login"><LoginPage/></Route>
         <Route path="/contact"><ContactPage/></Route>
         <Route path="/register"><RegisterPage/></Route>
+        <Route path="/listproperty"><ListProperty/></Route>
       </Switch>
       <Footer/>
     </Router>

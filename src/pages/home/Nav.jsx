@@ -19,9 +19,9 @@ const Nav = ()=>{
                         <li>
                             <a href="" className="item">Properties</a>
                             <ul className="sub-dropdown">
-                                <li><a href="">Properties</a></li>
+                                <li><Link to="/listproperty">Properties</Link></li>
                                 <li><a href="">Properties Details</a></li>
-                                <li><a href="">Add Properties</a></li>
+                                <li><Link to="/property">Add Properties</Link></li>
                             </ul>
                         </li>
                         <li>
@@ -31,13 +31,13 @@ const Nav = ()=>{
                                     <Link to="/blog" className="drop-item">Blog Page <ArrowForwardIos className="icon"/></Link>
                                     <ul className="sub-dropdown-group">
                                         <li><Link to="/blog">Blog Page</Link></li>
-                                        <li><Link>Blog Details</Link></li>
+                                        <li><Link to="/blog/1">Blog Details</Link></li>
                                     </ul>
                                 </li>
                                 <li><a href="" >About Page</a></li>
                                 <li><a href="">Create Agency</a></li>
                                 <li><Link to="/login">Login Page</Link></li>
-                                <li><a href="">Register Page</a></li>
+                                <li><Link to="/register">Register Page</Link></li>
                             </ul>
                         </li>
                         <li>

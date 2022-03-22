@@ -1,0 +1,69 @@
+#listProperty {
+    padding-bottom: 150px;
+}
+.listProperty_container {
+    margin-top: 100px;
+    width: 100%;
+}
+.listProperty_container_tabs {
+    display: flex;
+    justify-content: flex-end;
+}
+.listProperty_container_tabs button {
+    padding: 8px 14px;
+    border-radius: 30px;
+    background-color: white;
+    outline: none;
+    border: 1px solid #2ca7dd;
+    cursor: pointer;
+    margin-left: 13px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.5s ease;
+}
+.listProperty_container_tabs button:hover {
+    background: #2ca7dd;
+    transition: 0.5s ease;
+    color: white;
+}
+.listProperty_container_tabs button.active {
+    background: #2ca7dd;
+    transition: 0.5s ease;
+    color: white;
+}
+.listProperty_gallery {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.listProperty_pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.pagination_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #2ca7dd;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.pagination_box .icon {
+    font-size: 14px;
+}
+.pagination_box:hover {
+    background: #2ca7dd;
+    color:white;
+}
+.pagination_box.active {
+    background: #2ca7dd;
+    color:white;
+}
