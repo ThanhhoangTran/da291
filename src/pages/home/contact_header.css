@@ -52,9 +52,11 @@
     opacity: 1;
     color: #ffffff;
 }
-.header_register {
-    color: #2BC0E4;
+.header_buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.header_login {
-    color: black;
+.dropdown__content-items > span {
+    margin-left: 15px;
 }

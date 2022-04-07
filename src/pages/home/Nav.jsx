@@ -4,18 +4,11 @@ import {Link} from 'react-router-dom'
 const Nav = ()=>{
     return (
         <div className="nav">
-                <h3 className="nav_logo">H3.Home</h3>
+                <h3 className="nav_logo">H3-Home</h3>
                 <div className="nav_menu">
                     <ul className="nav_menu_list">
                         <li><Link to="/" className="item">Home</Link></li>
-                        <li>
-                            <a href="" className="item">Services</a>
-                            <ul className="sub-dropdown">
-                                <li><a href="">Servies</a></li>
-                                <li><a href="">Single Servies</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="" className="item">Features</a></li>
+                        {/* <li><a href="" className="item">Features</a></li> */}
                         <li>
                             <a href="" className="item">Properties</a>
                             <ul className="sub-dropdown">
@@ -34,19 +27,19 @@ const Nav = ()=>{
                                         <li><Link to="/blog/1">Blog Details</Link></li>
                                     </ul>
                                 </li>
-                                <li><a href="" >About Page</a></li>
-                                <li><a href="">Create Agency</a></li>
+                                <li><Link to="/about">About Page</Link></li>
                                 <li><Link to="/login">Login Page</Link></li>
                                 <li><Link to="/register">Register Page</Link></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="" className="item">Agent</a>
+                            <Link to="/agent" className="item">Agent</Link>
                             <ul className="sub-dropdown">
-                                <li><a href="">Agent</a></li>
-                                <li><a href="">Agent Details</a></li>
+                                <li><Link to="/agent">Agent</Link></li>
+                                <li><Link to="/agent/1">Agent Details</Link></li>
                             </ul>
                         </li>
+                        <li><Link to="/report" className="item">Report</Link></li>
                         <li><Link to="/contact" className="item">Contact</Link></li>
                     </ul>
                 </div>

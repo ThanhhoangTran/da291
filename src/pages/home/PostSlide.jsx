@@ -7,15 +7,15 @@ import thumb3 from '../../images/thumb3.jpg'
 const PostSlide = () =>{
     return (
         <div id="postSlide">
-            <div class="section">
-                    <div class="postSlide_container">
-                        <div class="postSlide_content">
+            <div className="section">
+                    <div className="postSlide_container">
+                        <div className="postSlide_content">
                             <h2>Homes around the world</h2>
                             <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.</p>
                             <button> <a href=""><ArrowCircleUp style={{transform :'rotate(90deg)', marginRight: '7px'}}/> View for rent</a></button>
                         </div>
-                        <img src={sofa} class="img"/>
-                        <ul class="postSlide_groups">
+                        <img src={sofa} className="img"/>
+                        <ul className="postSlide_groups">
                             <li><a href="">
                                 <img src={thumb1} alt=""/>
                                 <h3>Homes</h3>

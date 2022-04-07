@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "street": "22 First street, Ha Noi, Viet Nam 1200 Sqft, 3 Bed, 2 Bath, 1 Garage",
+        "price": "$1,25,000"
+    },
+    {
+        "id": 2,
+        "street": "22 First street, Ha Noi, Viet Nam 1200 Sqft, 3 Bed, 2 Bath, 1 Garage",
+        "price": "$1,25,000"
+    },
+    {
+        "id": 3,
+        "street": "22 First street, Ha Noi, Viet Nam 1200 Sqft, 3 Bed, 2 Bath, 1 Garage",
+        "price": "$1,25,000"
+    },
+    {
+        "id": 4,
+        "street": "22 First street, Ha Noi, Viet Nam 1200 Sqft, 3 Bed, 2 Bath, 1 Garage",
+        "price": "$1,25,000"
+    },
+    {
+        "id": 5,
+        "street": "22 First street, Ha Noi, Viet Nam 1200 Sqft, 3 Bed, 2 Bath, 1 Garage",
+        "price": "$1,25,000"
+    }
+
+]

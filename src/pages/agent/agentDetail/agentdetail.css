@@ -1,0 +1,46 @@
+#agentDetail {
+    padding-bottom: 200px;
+}
+.agentDetail_container {
+    margin-top: 100px;
+    display: flex;
+}
+.agentDetail_box {
+    max-width: 300px;
+}
+.agentDetail_content {
+    flex: 2;
+    margin-left: 20px;
+}
+.agentDetail_img {
+    border-radius: 50%;
+    width: 300px;
+    height:300px;
+    overflow: hidden;
+}
+.agentDetail_box img {
+    width: 100%;
+}
+.agentDetail_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.agentDetail_content span {
+    color: coral;
+}
+.agentDetail_content .introduce {
+    margin-top: 20px;
+}
+.agent_contact {
+    margin-top: 20px;
+}
+#agentDetail .icon {
+    margin: 0 5px;
+    color: gray;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#agentDetail .icon:hover {
+    color: coral;
+}

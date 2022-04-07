@@ -1,7 +1,7 @@
 import './filter_header.css';
 import {KeyboardArrowDown, Search} from '@mui/icons-material'
 import { useState } from 'react'
-const Filter_Header = ()=>{
+const Filter_Header =()=>{
     const [openState, setOpenState] = useState(null);
     const onChangeState = (e)=>{
         if(e.target.name == openState){
@@ -12,7 +12,7 @@ const Filter_Header = ()=>{
     } 
     return (
         <div className="header_filter">
-                        <input type="text" name="" id="" placeholder="Enter Address, City or State"/>
+                        <input type="text"  placeholder="Enter Address, City or State"/>
                         <div className={`header_filter_form ${openState == 'type' ? 'active' : ''}`}>
                             <div className="select" >
                                 <a onClick={onChangeState} name="type">Any Type <KeyboardArrowDown className="icon"/></a>

@@ -47,6 +47,7 @@
     font-weight: 400;
     margin-top: -7px;
     z-index: 1;
+    text-transform: capitalize;
 }
 .gallery_box_desc {
     padding: 15px;

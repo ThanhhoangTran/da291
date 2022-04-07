@@ -1,13 +1,12 @@
 import './gallery_box.css'
-import city from "../../images/city3.jpg"
-const Gallery_Box = ()=>{
+const Gallery_Box = ({image, name, id, pro})=>{
     return (
-        <a class="popular_gallery_box" href="#">
-                        <img src={city} alt="" />
-                        <div class="popular_overlay">
-                            <div class="popular_box_content">
-                                <h4>Tokyo</h4>
-                                <p>70 Properties</p>
+        <a className="popular_gallery_box" href="#">
+                        <img src={image} alt="" />
+                        <div className="popular_overlay">
+                            <div className="popular_box_content">
+                                <h4>{name.split(', ')[0].replace(name.split(', ')[0].charAt(0), name.split(', ')[0].charAt(0).toUpperCase())}</h4>
+                                <p>{pro} Properties</p>
                             </div>
                         </div>
         </a>
