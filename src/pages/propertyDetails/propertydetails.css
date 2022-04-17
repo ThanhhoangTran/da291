@@ -1,0 +1,44 @@
+.propertyDetails_container {
+    margin-top: 100px;
+    padding-bottom: 150px;
+}
+.card_detail {
+    display: flex;
+}
+.card_detail_desc {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.card_detail_desc h3 {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 400;
+    color: rebeccapurple;
+}
+.card_detail_content {
+    margin: 10px 0;
+}
+#propertyDetails .card_detail_contact .icon {
+    margin: 0 10px;
+    color: red ;
+    font-size: 23px;
+}
+.card_detail_address {
+    color: rgba(0, 0, 0, 0.412);
+    font-weight:400;
+    font-size: 23px;
+}
+.card_detail_price {
+    padding:10px;
+    background-image: linear-gradient(to right top, #cf4479, #268e9e);
+    color: rgb(230, 219, 68);
+    font-weight: 600;
+    border-radius: 5px;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}

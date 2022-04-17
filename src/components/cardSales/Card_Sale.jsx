@@ -4,7 +4,7 @@ const Card_Sale = (props)=>{
     const type = ['RENT', 'SALES'][Math.floor(Math.random()*2)]
     return (
         <div className="propertySales_gallery_box">
-            <Link to="/listproperty/1" className="gallery_box_image">
+            <Link to={`/listproperty/${props.id}`} className="gallery_box_image">
                 {props.image ? (
                 <>
                     <img src={props.image} alt=""/>

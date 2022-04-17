@@ -1,15 +1,15 @@
-import React, {createContext} from 'react'
-import img  from '../images/face.jpg'
+import React, { createContext } from "react";
+import img from "../images/face.jpeg";
 const userData = {
-    login: true,
-    name: 'Berizsin',
-    image: img
-}
+  login: true,
+  name: "Berizsin",
+  image: img,
+};
 export const userContext = createContext();
-const Provider = ({children}) => {
-    return (
-        <userContext.Provider value={userData}>{children}</userContext.Provider>
-    )
-}
+const Provider = ({ children }) => {
+  return (
+    <userContext.Provider value={userData}>{children}</userContext.Provider>
+  );
+};
 
-export default Provider
+export default Provider;

@@ -2,7 +2,7 @@ import './blogdetail.css'
 import {Link} from 'react-router-dom'
 import {FacebookOutlined, Google, Twitter, FormatQuote, Instagram, LinkedIn, Telegram} from '@mui/icons-material'
 import img from '../../images/bg5.jpg'
-import face from '../../images/face.jpg'
+import face from '../../images/face.jpeg'
 import BlogFilter from '../../components/blogFilter/BlogFilter'
 const BlogDetail = ()=>{
     return (
@@ -41,7 +41,7 @@ const BlogDetail = ()=>{
                             </div>
                             <div className="blogDetail_author_say">
                                 <h4>Author</h4>
-                                <h5>Thanh Hoang</h5>
+                                <h5>Tom Cursor</h5>
                                 <p>Hi, nice to meet you let me introduce for you, I am Berizsin freelancer designer & web programmer from Vietnam, base lampung</p>
                                 <div className="author_link">
                                     <a href=""><FacebookOutlined/></a>

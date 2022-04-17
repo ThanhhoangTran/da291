@@ -1,6 +1,6 @@
 import './agentdetail.css'
 import {Link} from 'react-router-dom'
-import img from '../../../images/face.jpg'
+import img from '../../../images/face.jpeg'
 import {FacebookOutlined, Twitter, Instagram} from '@mui/icons-material'
 const AgentDetail = ()=>{
     return (

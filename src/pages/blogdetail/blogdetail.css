@@ -92,22 +92,6 @@
     padding: 20px;
     background-color: #fafafa;
 }
-.blogDetail_author_img {
-    flex: 1;
-    overflow: hidden;
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    background-color: red;   
-    position: relative;
-    z-index: 2;
-}
-.blogDetail_author img {
-    object-fit: contain;
-    object-position: center;
-    width: 100%;
-    max-width: 100%;
-}
 .blogDetail_author_say {
     flex: 5;
 }
@@ -148,4 +132,14 @@
 }
 .blogDetail_author_say .author_link a:before:hover {
     background-color: transparent;
+}
+.blogDetail_author_img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin-right:20px;
+}
+.blogDetail_author img {
+    width: 100%;
 }

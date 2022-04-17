@@ -57,7 +57,6 @@ const Contact_Header = ()=>{
                             renderItems={(item, index)=>renderDataUser(item, index)}
                        />): (<button style={{marginLeft: "10px"}}><Link to="/login" className="header_btn btn">Login</Link></button>)
                     }
-                    <DropDown customToggle={()=>renderColor()}/>
                 </div>
         </div>
         <Nav/>

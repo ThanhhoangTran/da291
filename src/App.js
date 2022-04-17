@@ -22,58 +22,58 @@ import AgentDetail from "./pages/agent/agentDetail/AgentDetail";
 import Report from "./pages/report/Report";
 import Profile from "./pages/profile/Profile";
 import { useContext } from "react";
-import {userContext} from './sevices/Provider'
+import { userContext } from "./sevices/Provider";
 function App() {
   const userData = useContext(userContext);
   return (
-      <Router>
-        <Contact_Header />
-        <Switch>
-          <Route path="/" exact>
-            <HomePage />
-          </Route>
-          <Route path="/login">
-            <LoginPage />
-          </Route>
-              <Route path="/property">
-                <Property />
-              </Route>
-              <Route path="/blog" exact>
-                <BlogPage />
-              </Route>
-              <Route path="/blog/:idBlog">
-                <BlogDetail />
-              </Route>
-              <Route path="/contact">
-                <ContactPage />
-              </Route>
-              <Route path="/register">
-                <RegisterPage />
-              </Route>
-              <Route path="/listproperty" exact>
-                <ListProperty />
-              </Route>
-              <Route path="/listproperty/:idPro">
-                <PropertyDetails />
-              </Route>
-              <Route path="/about">
-                <About />
-              </Route>
-              <Route path="/agent" exact>
-                <Agent />
-              </Route>
-              <Route path="/agent/:idAgent">
-                <AgentDetail />
-              </Route>
-              <Route path="/report">
-                <Report />
-              </Route>
-              <Route path="/profile">
-                <Profile />
-              </Route>
-        </Switch>
-        <Footer />
-      </Router>
+    <Router>
+      <Contact_Header />
+      <Switch>
+        <Route path="/" exact>
+          <HomePage />
+        </Route>
+        <Route path="/login">
+          <LoginPage />
+        </Route>
+        <Route path="/property">
+          <Property />
+        </Route>
+        <Route path="/blog" exact>
+          <BlogPage />
+        </Route>
+        <Route path="/blog/:idBlog">
+          <BlogDetail />
+        </Route>
+        <Route path="/contact">
+          <ContactPage />
+        </Route>
+        <Route path="/register">
+          <RegisterPage />
+        </Route>
+        <Route path="/listproperty" exact>
+          <ListProperty limit={10} />
+        </Route>
+        <Route path="/listproperty/:idPro">
+          <PropertyDetails />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/agent" exact>
+          <Agent />
+        </Route>
+        <Route path="/agent/:idAgent">
+          <AgentDetail />
+        </Route>
+        <Route path="/report">
+          <Report />
+        </Route>
+        <Route path="/profile">
+          <Profile />
+        </Route>
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 export default App;

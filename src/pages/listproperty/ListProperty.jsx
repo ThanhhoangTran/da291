@@ -49,9 +49,10 @@ const ListProperty = () => {
           </div>
           <div className="listProperty_gallery">
             {loading && <h2 className="loadingData">Loading...</h2>}
-            {gallerys && gallerys.map((item, index) => (
+            {gallerys && gallerys.slice(0, 20).map((item, index) => (
               <Card_Sale
                 key={index}
+                id={item.id}
                 image={item.webformatURL}
                 name={item.tags}
                 select={tab}

@@ -1,5 +1,5 @@
 import {FacebookOutlined, Twitter, Instagram} from '@mui/icons-material'
-import img from '../../images/face.jpg'
+import img from '../../images/face.jpeg'
 import './agent_list.css'
 import {Link} from 'react-router-dom'
 const Agent_List = ()=>{
